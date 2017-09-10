@@ -1,0 +1,58 @@
+html {
+	height: 100%;
+	box-sizing: border-box;
+}
+body{ 
+	padding-top: 5%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 40px; 
+	text-align: center; 
+	color: #ffde99;
+	background-color: #99ccff;
+ }
+input[type=text]{
+	width: 15%;
+	height: 2em;
+	border: none;
+	display: inline-block;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 20px;
+	border-radius: 3px;
+	margin-bottom: 1em; 
+}
+button{
+	size: 50px;
+	border-radius: 3px;
+	border: none;
+	background-color: #efefef;
+	padding: 10px 10px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+}
+button:hover{
+	color: white;
+	border: none;
+	background-color: #79acdf;
+}
+#greeting { 
+	font-family: cursive, Georgia, serif;
+	font-weight: bold; 
+	margin-top: 2em; 
+ }
+.footer {
+	color: #ddaaff;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #fafafa;
+	text-align: center;
+}
+address{
+	margin-top: 1em;
+	font-size: 8px; 
+}
+ 
+
+
